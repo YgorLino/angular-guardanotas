@@ -1,0 +1,99 @@
+.container-header{
+    align-items: center;
+    justify-content: center;
+    margin-top: 133px;
+}
+.paragrafo-header{
+    color: #6366F1;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+.tittle-header{
+    margin-top: 15px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    font-family: Inter;
+    font-size: 80px;
+    line-height: 97px;
+    letter-spacing: 0em;
+}
+.container-add-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+::placeholder{
+    color: #9CA3AF;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.input-text{
+    width: 60.1875rem;
+    height: 2.375rem;
+    flex-shrink: 0;
+    border-radius: 0.1875rem;
+    border: 1px solid #71717A;
+    background: #27272C;
+
+}
+.maxlength-text{
+    color: #9CA3AF;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 1rem;
+}
+.add-new-note{
+    width: 6.9375rem;
+    height: 2.375rem;
+    margin-left: 1rem;
+    background: #6366F1;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    line-height: normal;
+}
+@media only screen and (max-width: 1024px) {
+    .tittle-header {
+        font-size: 40px;
+        line-height: 50px;
+        margin-top: 1rem;
+    }
+    .container-add-text {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .input-text {
+        width: 90%;
+        max-width: none; 
+        margin-bottom: 10px; 
+    }
+
+    .maxlength-text {
+       margin-top: 10px;
+       margin-left: 50px;  
+    }
+
+    .add-new-note { 
+        margin-top: -7%;
+        margin-left: 60%;
+    }
+}
