@@ -48,6 +48,7 @@
     border-radius: 0.1875rem;
     border: 1px solid #71717A;
     background: #27272C;
+    color: #ffffff;
 
 }
 .maxlength-text{
@@ -69,8 +70,9 @@
     font-size: 1rem;
     font-style: normal;
     line-height: normal;
+    cursor:grabbing;
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 870px) {
     .tittle-header {
         font-size: 40px;
         line-height: 50px;
